@@ -1,7 +1,7 @@
 <h1 align="center">Hi there, I'm Aldi 👋</h1>
 
 <p align="center">
-  <em>ITS Informatics Student · Batch 2019 · Indonesia 🇮🇩</em>
+  <em>Master of Artificial Intelligence · Monash University · Malaysia</em>
 </p>
 
 <p align="center">
@@ -14,11 +14,9 @@
 
 ## 🙋‍♂️ About Me
 
-- 🎓 **Informatics Engineering** student at Institut Teknologi Sepuluh Nopember (ITS), Batch 2019
-- 🌱 Currently learning **Mobile Development**
-- 👯 Looking to collaborate on **Bangkit 2022 Projects**
-- 📍 Based in **Indonesia**
-- 💬 Hit me up on Twitter or LinkedIn!
+- 🎓 **Master of Artifical Intelligence** student at Monash University Malaysia
+- 🌱 Currently learning **Industry Experience Project**
+- 📍 Based in **Malaysia**
 
 ---
 
