@@ -141,5 +141,3 @@ A **multilingual health web app** helping Malaysians combat metabolic syndrome â
 <p align="center">
   <img src="https://komarev.com/ghpvc/?username=Alvancho88&color=blueviolet&style=flat-square" alt="Profile Views"/>
 </p>
-
-<p align="center"><em>"Code is like humor. When you have to explain it, it's bad." â€” Cory House</em></p>
