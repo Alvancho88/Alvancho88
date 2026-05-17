@@ -14,8 +14,8 @@
 
 ## 🙋‍♂️ About Me
 
-- 🎓 **Master of Artifical Intelligence** student at Monash University Malaysia
-- 🌱 Currently learning **Industry Experience Project**
+- 🎓 **Master of Artificial Intelligence** student at Monash University Malaysia
+- 🌱 Currently learning **Industry Experience**
 - 📍 Based in **Malaysia**
 
 ---
@@ -56,10 +56,85 @@
 
 ## 📌 Featured Project
 
-### [sihat](https://github.com/Alvancho88/sihat)
-> FIT5120 Industry Experience Project — TM02 Quintet
+### 🍚 [SIHAT — Seniors' Integrated Health Assessment Tool](https://github.com/Alvancho88/sihat)
 
-Built with **TypeScript** · ⭐ 2 stars
+> FIT5120 Industry Experience Project — Monash University · TM02 Quintet · ⭐ 2 stars
+
+A **multilingual health web app** helping Malaysians combat metabolic syndrome — the "Three Highs" (Hyperglycemia, Hypertension, Hyperlipidemia) — through AI-powered menu analysis, food exploration, and interactive health statistics.
+
+---
+
+#### 🧰 Tech Stack
+
+| Layer | Technologies |
+|---|---|
+| **Framework** | Next.js 16 (App Router), React 19 |
+| **Language** | TypeScript |
+| **Styling** | Tailwind CSS v4, shadcn/ui, Radix UI |
+| **Database** | PostgreSQL (Neon serverless), Drizzle ORM |
+| **AI / LLM** | Groq API — Llama-4-Scout (OCR) + Llama-3.3-70B (analysis) |
+| **Data Viz** | Recharts, react-simple-maps, D3-scale |
+| **Forms & Validation** | React Hook Form, Zod |
+| **PWA** | Serwist (service worker, precaching) |
+| **Deployment** | Vercel |
+| **Package Manager** | pnpm |
+
+<p>
+  <img src="https://img.shields.io/badge/Next.js_16-000000?style=flat-square&logo=nextdotjs&logoColor=white"/>
+  <img src="https://img.shields.io/badge/React_19-61DAFB?style=flat-square&logo=react&logoColor=black"/>
+  <img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Tailwind_CSS_v4-06B6D4?style=flat-square&logo=tailwindcss&logoColor=white"/>
+  <img src="https://img.shields.io/badge/shadcn%2Fui-000000?style=flat-square&logo=shadcnui&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Radix_UI-161618?style=flat-square&logo=radixui&logoColor=white"/>
+  <img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Neon-00E5BF?style=flat-square&logo=neon&logoColor=black"/>
+  <img src="https://img.shields.io/badge/Drizzle_ORM-C5F74F?style=flat-square&logo=drizzle&logoColor=black"/>
+  <img src="https://img.shields.io/badge/Groq_AI_(Llama_4)-F55036?style=flat-square&logo=meta&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Recharts-22B5BF?style=flat-square&logo=chartdotjs&logoColor=white"/>
+  <img src="https://img.shields.io/badge/D3.js-F9A03C?style=flat-square&logo=d3dotjs&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Zod-3E67B1?style=flat-square&logo=zod&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Vercel-000000?style=flat-square&logo=vercel&logoColor=white"/>
+  <img src="https://img.shields.io/badge/pnpm-F69220?style=flat-square&logo=pnpm&logoColor=white"/>
+</p>
+
+---
+
+#### 🧠 Skills Learned
+
+**🖥️ Frontend Development**
+- Built a full-stack app using the **Next.js 16 App Router** architecture, separating server components from client components effectively
+- Developed type-safe UIs with **React 19** and **TypeScript** — leveraging hooks, Context API, and compound component patterns
+- Styled responsive, accessible interfaces with **Tailwind CSS v4**, **shadcn/ui**, and **Radix UI** primitives (accordion, dialog, dropdown, tabs, tooltips, and more)
+- Built a **PWA (Progressive Web App)** with offline support using **Serwist** (service workers + precaching strategy)
+- Managed global client state using **React Context** — including a cart system, daily nutrient intake panel, and live language switching
+
+**📊 Data Visualisation**
+- Rendered an **interactive choropleth map** of Malaysian diabetes prevalence by state using `react-simple-maps` and `d3-scale` with colour interpolation on GeoJSON data
+- Built animated **line charts, bar charts**, and **ethnicity breakdown charts** with **Recharts**
+- Created a custom **SVG body-map diagram** to visualise how the Three Highs affect different organs
+
+**🔌 Backend & API Development**
+- Designed **Next.js API routes** (`/api/predict`, `/api/chat`) handling multipart image uploads, streaming, and structured JSON responses
+- Built resilient API call logic with **primary/fallback API key switching** for production reliability
+- Integrated the **Groq AI API** to power: OCR extraction of food items from menu photos (Llama-4-Scout) and diabetes risk scoring with health tips (Llama-3.3-70B)
+
+**🗄️ Database & Data Modelling**
+- Defined relational schemas using **Drizzle ORM** for Malaysian diabetes statistics at state, national trend, and ethnicity levels
+- Ran schema migrations and seeding with **Drizzle Kit** against a serverless **Neon PostgreSQL** database
+- Worked with **GeoJSON** geographic data for map rendering
+
+**🤖 AI & Prompt Engineering**
+- Wrote structured prompts to extract food item lists from noisy OCR text and produce consistent **JSON output** across multiple languages
+- Implemented multi-step LLM pipelines: image → OCR text → structured food list → per-item risk scoring + health tip generation
+- Designed prompt guardrails and output validation with **Zod** schemas to ensure safe parsing of LLM responses
+
+**🌐 Internationalisation (i18n)**
+- Implemented a custom **multilingual UI** (English 🇬🇧, Bahasa Malaysia 🇲🇾, Mandarin 🇨🇳) with a language-switcher component and per-language content maps for health tips and UI strings
+
+**🚀 DevOps & Team Collaboration**
+- Deployed to **Vercel** with environment variable management, build config tuning (`--webpack` flag for large bundles), and analytics integration
+- Used **GitHub CODEOWNERS** and structured branch workflows for multi-developer collaboration in an academic industry project
+- Managed project dependencies efficiently with **pnpm** workspaces
 
 ---
 
