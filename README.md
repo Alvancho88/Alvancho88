@@ -42,12 +42,12 @@
 ## 📊 GitHub Stats
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=Alvancho88&show_icons=true&theme=tokyonight&hide_border=true" alt="Aldi's GitHub Stats" width="48%"/>
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Alvancho88&layout=compact&theme=tokyonight&hide_border=true&langs_count=10&exclude_repo=" alt="Top Languages" width="40%"/>
+  <img src="https://github-stats-extended.vercel.app/api?username=Alvancho88&show_icons=true&theme=tokyonight&hide_border=true" alt="Aldi's GitHub Stats" width="48%"/>
+  <img src="https://github-stats-extended.vercel.app/api/top-langs/?username=Alvancho88&layout=compact&theme=tokyonight&hide_border=true&langs_count=10" alt="Top Languages" width="40%"/>
 </p>
 
 <p align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=Alvancho88&theme=tokyonight&hide_border=true" alt="GitHub Streak" width="55%"/>
+  <img src="https://streak-stats.demolab.com?user=Alvancho88&theme=tokyonight&hide_border=true" alt="GitHub Streak" width="55%"/>
 </p>
 
 ---
